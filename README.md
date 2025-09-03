@@ -3,7 +3,7 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>แฟ้มสะสมผลงาน - ทินภัทร บริรักษ์สาธร</title>
+  <title>แฟ้มสะสมผลงาน - ทินภัทร บริรักษ์สาทร</title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
