@@ -174,6 +174,19 @@
         <li>เขียนแบบด้วยคอมพิวเตอร์ (SolidWorks)</li>
         <li>การเขียนโปรแกรม</li>
       </ul>
+     <div id="Favorite-colors" class="card">
+       <h9>🎨 สีโปรด</h9>
+      <ul>
+        <li>Blue</li>
+        <li>red</li>
+        <li>black</li>
+      </ul>
+    <div id="Free-time" class="card">
+      <h10>⏳ เวลาว่าง </h10>
+        <li>coding for mod game </li>
+        <li>coding for A portfolio by HTML AND JAVASCRIPT</li>
+        <li>programming for robotics and Electronics combination in Arduino for welcome your service </li>
+        <li>programming for robotics and electronics for repair robotics arm </li>
     </div>
   </div>
 
