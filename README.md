@@ -1,4 +1,3 @@
-# BxbyPeafirst_Thinnaphat_Portfolio
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -26,7 +25,7 @@
       margin-bottom: 15px;
     }
     .container {
-      width: 80%;
+      width: 90%;
       margin: 20px auto;
       max-width: 1000px;
     }
@@ -41,9 +40,13 @@
     .card:hover {
       transform: translateY(-3px);
     }
-    h2 {
+    h2, h3, h4, h5, h6 {
       color: #2c3e50;
       margin-top: 0;
+    }
+    .custom-title {
+      font-size: 18px;
+      color: #2c3e50;
     }
     ul {
       padding-left: 20px;
@@ -64,7 +67,12 @@
       background: #2b2b3d;
       color: #fff;
     }
-    .dark-mode h2 {
+    .dark-mode h2, 
+    .dark-mode h3, 
+    .dark-mode h4, 
+    .dark-mode h5, 
+    .dark-mode h6, 
+    .dark-mode .custom-title {
       color: #4fc3f7;
     }
     .dark-mode footer {
@@ -87,7 +95,7 @@
 </head>
 <body>
   <header>
-    <img src="profile.jpg" alt="รูปโปรไฟล์">
+    <img src="profile.jpg" alt="รูปโปรไฟล์ ทินภัทร" title="ทินภัทร บริรักษ์สาทร">
     <h1>สวัสดีครับ ผมชื่อ ทินภัทร บริรักษ์สาทร</h1>
     <p><strong>ชื่อเล่น:</strong> Bxbysmurf / BxbyPeafirst</p>
     <p><strong>อายุ:</strong> 20 ปี</p>
@@ -98,17 +106,17 @@
   </header>
 
   <div class="container">
-    <div class="card">
+    <section class="card">
       <h2>🎓 การศึกษา</h2>
       <ul>
         <li><strong>อนุบาล:</strong> โรงเรียนอนุบาลเมืองใหม่ชลบุรี</li>
         <li><strong>มัธยมต้น:</strong> โรงเรียนปรีชานุศาสน์</li>
         <li><strong>มัธยมปลาย:</strong> โรงเรียนปรีชานุศาสน์ (สายวิทย์-คณิต)</li>
-        <li><strong>วิทยาลัย:</strong> วิทยาลัยเทคนิคบางแสน(วิทยาลัยสารพัดช่างชลบุรี) – วิชาอุตสาหกรรม สาขาเมคคาทรอนิกส์และหุ่นยนต์</li>
+        <li><strong>วิทยาลัย:</strong> วิทยาลัยเทคนิคบางแสน (วิทยาลัยสารพัดช่างชลบุรี) – วิชาอุตสาหกรรม สาขาเมคคาทรอนิกส์และหุ่นยนต์</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h3>💡 ทักษะ</h3>
       <ul>
         <li>การเขียนโปรแกรม (AI, เว็บ, หุ่นยนต์)</li>
@@ -117,9 +125,9 @@
         <li>การออกแบบด้วยคอมพิวเตอร์ (SolidWorks)</li>
         <li>ระบบอิเล็กทรอนิกส์และระบบอัตโนมัติ</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h4>📌 กิจกรรม</h4>
       <ul>
         <li>เล่นและแต่งเพลง</li>
@@ -128,9 +136,9 @@
         <li>เขียนโค้ดด้านอิเล็กทรอนิกส์และเมคคาทรอนิกส์</li>
         <li>สอน AI ให้กับเด็กนักเรียน</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h5>📜 เกียรติบัตร</h5>
       <ul>
         <li>การเขียนโปรแกรมหุ่นยนต์</li>
@@ -140,9 +148,9 @@
         <li>การสอน AI สำหรับเด็ก</li>
         <li>การออกแบบวงจร PLC</li>
       </ul>
-    </div>
+    </section>
 
-    <div id="game-projects" class="card">
+    <section id="game-projects" class="card">
       <h6>🎮 โปรเจกต์เกม</h6>
       <ul>
         <li>ม็อด Minecraft สำหรับระบบอัตโนมัติในเซิร์ฟเวอร์</li>
@@ -151,20 +159,20 @@
         <li>ม็อด Plant vs Zombie (เพิ่มความยากของซอมบี้)</li>
         <li>เครื่องมือช่วยสร้างสิ่งปลูกสร้าง Minecraft แบบรวดเร็ว</li>
       </ul>
-    </div>
+    </section>
 
-    <div id="gpa" class="card">
-      <h7>📊 เกรดเฉลี่ย (GPA)</h7>
+    <section id="gpa" class="card">
+      <h6 class="custom-title">📊 เกรดเฉลี่ย (GPA)</h6>
       <ul>
         <li><strong>อนุบาล:</strong> 4.00</li>
         <li><strong>มัธยมต้น:</strong> 3.96</li>
         <li><strong>มัธยมปลาย:</strong> 3.37</li>
         <li><strong>วิทยาลัย:</strong> 2.00</li>
       </ul>
-    </div>
+    </section>
 
-    <div id="favorite-subjects" class="card">
-      <h8>📘 วิชาที่ชื่นชอบ</h8>
+    <section id="favorite-subjects" class="card">
+      <h6 class="custom-title">📘 วิชาที่ชื่นชอบ</h6>
       <ul>
         <li>คณิตศาสตร์</li>
         <li>วิทยาศาสตร์</li>
@@ -174,20 +182,26 @@
         <li>เขียนแบบด้วยคอมพิวเตอร์ (SolidWorks)</li>
         <li>การเขียนโปรแกรม</li>
       </ul>
-     <div id="Favorite-colors" class="card">
-       <h9>🎨 สีโปรด</h9>
+    </section>
+
+    <section id="favorite-colors" class="card">
+      <h6 class="custom-title">🎨 สีโปรด</h6>
       <ul>
         <li>Blue</li>
-        <li>red</li>
-        <li>black</li>
+        <li>Red</li>
+        <li>Black</li>
       </ul>
-    <div id="Free-time" class="card">
-      <h10>⏳ เวลาว่าง </h10>
-        <li>coding for mod game </li>
-        <li>coding for A portfolio by HTML AND JAVASCRIPT</li>
-        <li>programming for robotics and Electronics combination in Arduino for welcome your service </li>
-        <li>programming for robotics and electronics for repair robotics arm </li>
-    </div>
+    </section>
+
+    <section id="free-time" class="card">
+      <h6 class="custom-title">⏳ เวลาว่าง</h6>
+      <ul>
+        <li>Coding for mod game</li>
+        <li>Coding for portfolio by HTML and JavaScript</li>
+        <li>Programming robotics + electronics in Arduino (Welcome your service)</li>
+        <li>Programming & repairing robotic arm</li>
+      </ul>
+    </section>
   </div>
 
   <footer>
@@ -196,7 +210,9 @@
 
   <script>
     function toggleDarkMode() {
+      const btn = document.querySelector('.dark-toggle');
       document.body.classList.toggle('dark-mode');
+      btn.textContent = document.body.classList.contains('dark-mode') ? "☀️ โหมดสว่าง" : "🌙 โหมดมืด";
     }
   </script>
 </body>
